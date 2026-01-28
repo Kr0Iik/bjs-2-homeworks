@@ -5,7 +5,7 @@ function getArrayParams(...arr) {
     return acc + current;
   }, 0);
 
-  avg /= arr.length;
+  avg /= arr.lengt;
 
   return { min: Number(min.toFixed(2)), max: Number(max.toFixed(2)), avg: Number(avg.toFixed(2)) };
 }
